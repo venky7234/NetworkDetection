@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "dos_attack",
+      "patterns": ["What is a DoS attack?", "Explain DoS", "Denial of Service attack?"],
+      "responses": ["A DoS (Denial of Service) attack aims to make a machine or network resource unavailable by overwhelming it with traffic."]
+    },
+    {
+      "tag": "sql_injection",
+      "patterns": ["Explain SQL Injection", "What is SQL Injection?", "SQLi attack?"],
+      "responses": ["SQL Injection is a code injection technique used to attack data-driven applications by inserting malicious SQL statements into input fields."]
+    },
+    {
+      "tag": "phishing",
+      "patterns": ["What is phishing?", "Explain phishing attack"],
+      "responses": ["Phishing is a type of cyberattack where attackers impersonate legitimate institutions via email or messages to steal sensitive data."]
+    },
+    {
+      "tag": "malware",
+      "patterns": ["Tell me about malware", "What is malware?"],
+      "responses": ["Malware refers to malicious software like viruses, worms, spyware, ransomware used to harm or exploit systems."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome!", "Glad to help!"]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [],
+      "responses": ["I'm sorry, I don't understand. Please ask about cybersecurity attacks or threats."]
+    }
+  ]
+}
